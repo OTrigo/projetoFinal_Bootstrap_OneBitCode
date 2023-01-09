@@ -1,0 +1,18 @@
+.metaInfo{
+    color: rgb(88, 88, 88);
+}
+
+#guide{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    padding-top: 12%;
+    text-align: center;
+    background-color: $bg-color;
+    justify-content: center;
+    align-items: center;
+    h5{
+        font-weight: 300;
+    }
+}
