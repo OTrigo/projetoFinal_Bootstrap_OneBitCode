@@ -183,16 +183,116 @@ main{
     padding-top: 1.4%;
 }
 
-@media (max-width:760px){
-    #first-container, #second-container, #third-container, #fourth-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+@media (max-width: 1200px){
+    .contentHuman{
+         background-position: center top;
+         #human-container1{
+            .human-text1{
+                .h1{
+                    text-align: center !important;
+                    font-size: 84px;
+                }
+                .h3{
+                    font-size: 28px;
+                }
+            }
+         }
+    }
+    
+    #human-container2{
+        background-position: right center;
+        .human-text2{
+            width: 50%;
+        }
     }
 
-    #first-container, #second-container, #third-container, #fourth-container p{
-        font-size: 24px;
+    #human-container3{
+        background-position: center center;
+        .human-text3{
+            width: 50%;
+        }
+    }
+
+    #human-container4{
+        background-position: center center;
+        .human-text4{
+            width: 60%;
+            padding-top: 100px;
+        }
+    }
+
+    #human-container5{
+        background-position: center center;
+        .human-text5{
+            width: 60%;
+        }
+    }
+
+    #human-container-info{
+        .human-text-info{
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width:760px){
+
+    .contentHuman #human-container1 .human-text1 .h1{
+            font-size: 70px;
+    }
+    
+    #human-container-info{
+        .human-text-info{
+            width: 90%;
+        }
+    }
+
+    #human-container2{
+        background-position: center center;
+        .human-text2{
+            width: 40%;
+            .h2{
+                font-size: 48px;
+            }
+        }
+    }
+
+    #human-container3{
+        background-position: center center;
+        .human-text3{
+            width: 40%;
+            .h3{
+                font-size: 48px;
+            }
+        }
+    }
+
+    #human-container4{
+        background-position: center center;
+        .human-text4{
+            width: 40%;
+            .h4{
+                font-size: 48px;
+            }
+        }
+    }
+
+    #human-container5{
+        background-position: left right;
+        .human-text5{
+            width: 40%;
+            .h5{
+                font-size: 48px;
+            }
+        }
+    }
+
+    #guide{
+        .buttons{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
     }
 }
 

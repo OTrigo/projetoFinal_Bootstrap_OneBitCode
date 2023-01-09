@@ -62,8 +62,14 @@ main{
     #first-container, #second-container, #third-container, #fourth-container{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
+        background-position: center center;
+    }
+
+    #second-container{
+        background-position: -200px center;
+        background-repeat: no-repeat;
     }
 
     #first-container, #second-container, #third-container, #fourth-container p{

@@ -198,7 +198,7 @@
     .subtitle{
         display: flex;
         text-align: center;
-        top: 90vh;
+        top: 87vh;
         position: relative;
         width: 100vw;
         justify-content: center;
@@ -259,3 +259,81 @@
     }
 }
 
+@media (max-width: 950px){
+    #falcon-container2{
+        background-position: center center;
+    }
+
+    #falconCarousel{
+        #imagem1, #imagem2, #imagem3, #imagem4, #imagem5, #imagem6{
+            background-position: center center;
+        }
+    }
+
+    #falcon-container3{
+        background-position: center center;
+    }
+     
+    #falconProjects{
+        #imagem1, #imagem2, #imagem3, #imagem4, #imagem5, #imagem6{
+            background-position: center center;
+        }
+    }
+}
+
+
+@media (max-width: 768px){
+    #falcon-container1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 70px;
+        }
+
+        h3{
+            font-size: 24px;
+            font-weight: 300;
+        }
+    }
+
+    #falcon-counter{
+        height: fit-content;
+        flex-wrap: wrap;
+        h2{
+            font-size: 48px;
+            font-weight: 700;
+        }
+        h6{
+            font-weight: 400;
+        }
+    }
+
+    #falcon-container2{
+        background-position: center center;
+    }
+
+    #falconCarousel{
+        #imagem1, #imagem2, #imagem3, #imagem4, #imagem5, #imagem6{
+            background-position: center center;
+        }
+    }
+
+    #falcon-container3{
+        background-position: center center;
+    }
+     
+    #falconProjects{
+        #imagem1, #imagem2, #imagem3, #imagem4, #imagem5, #imagem6{
+            background-position: center center;
+        }
+        .subtitle{
+            top: 82vh;
+            p.text{
+                width: fit-content;
+            }
+        }
+    }
+}

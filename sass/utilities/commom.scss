@@ -2,6 +2,10 @@
     color: rgb(88, 88, 88);
 }
 
+.navbar-toggler-icon{
+    background-image: $burguer-icon !important;
+}
+
 #guide{
     display: flex;
     flex-direction: column;
